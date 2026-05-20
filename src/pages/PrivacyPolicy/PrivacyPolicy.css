@@ -1,0 +1,61 @@
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+.background {
+  background: rgb(218, 160, 109, 0.3);
+  padding: 20px 100px;
+  text-transform: lowercase;
+  text-align: center;
+  color: rgb(77, 50, 2);
+}
+
+h4 {
+  font-size: 19px;
+}
+
+.paragraph {
+  padding: 20px 10px;
+}
+
+.paragraph h4 {
+  padding-bottom: 5px;
+}
+
+.paragraph h5 {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+/* media query */
+
+@media (max-width: 650px) {
+  .background {
+    padding: 10px 10px;
+  }
+  .paragraph {
+    padding: 10px 10px;
+  }
+
+  .paragraph h4 {
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .privacy h1 {
+    font-size: 25px;
+  }
+  .policy h3 {
+    font-size: 18px;
+  }
+  .paragraph h4 {
+    font-size: 16px;
+  }
+  .paragraph p,
+  ul,
+  h5 {
+    font-size: 14px;
+  }
+}
