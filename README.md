@@ -1,6 +1,6 @@
 # Croasante
 
-**Live Demo:** https://croasante-react.vercel.app/
+**Live Demo:** https://croasante.vercel.app/
 
 A React + Vite web project for a modern bakery / product showcase site. It includes home page sections for hero content, product listings, gallery display, customer reviews, video presentation, contact information, and policy pages.
 
